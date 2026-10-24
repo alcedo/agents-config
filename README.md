@@ -15,4 +15,6 @@ Ponytail is not an always-on rule. See the third-party note for the clash with `
 
 This repo has no install or sync script.
 To use the skills and agents in every project, copy or symlink `.cursor/skills` to `~/.cursor/skills` and `.cursor/agents` to `~/.cursor/agents`.
-Leave the rest of `~/.cursor` alone. `.cursor/docs/` and `.cursor/README.md` are the pstack guide, kept so the skill links resolve.
+Skill-to-skill links keep working from that copy.
+`/poteto-help` also links to `docs/` and `README.md` beside the skills directory, so copy `.cursor/docs` to `~/.cursor/docs` and `.cursor/README.md` to `~/.cursor/README.md` when you want those guide links to resolve.
+Do not replace the rest of `~/.cursor`.

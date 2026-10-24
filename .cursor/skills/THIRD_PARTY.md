@@ -9,7 +9,9 @@ Cursor loads project skills from `.cursor/skills/<name>/SKILL.md` and project ag
 pstack's README, guide, and skills link to `./skills`, `./agents`, `./docs`, and `../<skill>` from the plugin root, so that root is `.cursor/` here.
 There is no sync script.
 Copy or symlink `.cursor/skills` to `~/.cursor/skills` and `.cursor/agents` to `~/.cursor/agents` when you want them in every project.
-Do not symlink this whole `.cursor` directory onto `~/.cursor`, because it also holds the pstack guide and licences.
+Sibling skill links still resolve from that copy.
+Guide links in `poteto-help` use `../../docs` and `../../README.md`, which land in `~/.cursor/docs` and `~/.cursor/README.md` after that copy, so copy those two as well if you want the guide to resolve.
+Do not symlink this whole `.cursor` directory onto `~/.cursor`.
 
 coderbits pull request 21 was not readable from this environment (the repository returned 404).
 The layout follows the choices named for that pull request: faithful skill text, both MIT licences, source URLs and upstream SHAs in this note, no Ponytail always-on ruleset, and no Ponytail hooks.
