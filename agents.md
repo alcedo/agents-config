@@ -17,7 +17,7 @@
 
 # Voice
 
-Output in ASD T100
+Output in ASD-STE100 (Simplified Technical English).
 
 # Opinions
 
